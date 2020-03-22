@@ -1,0 +1,15 @@
+Aplicar migrações e gerar código para um modelo com base em um banco de dados existente
+
+Instalar via  nugget
+
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Design 
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.Tools
+
+Inclua o seu SQL nome da instancia 
+Scaffold-DbContext "Data Source=DESKTOP-HVNTI80\DESENVOLVIMENTO;Initial Catalog=AdventureWorks2017;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer
+
+Base de testes : https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks
+Referencias : https://docs.microsoft.com/en-us/ef/core/miscellaneous/cli/dotnet
+
